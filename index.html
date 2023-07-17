@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex Pro">
+    <title>Mock Sign Up Page</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+            <div class="logo">
+                <!--<img src="https://placehold.co/400" alt="placeholder for logo"> -->
+                <h4>ColourCurv</h4>
+            </div>
+            <div class="links">
+                <button class="link">Support</button>
+                <button class="link">Feedback</button>
+            </div>
+        </div>
+        <form class="form-card" action="#" method="post">
+            <h2>Create your ColourCurv account</h2>
+            <div class="input-row">
+                <div class="form-field">
+                    <label for="first_name">First Name</label>
+                    <input type="text" placeholder="John / Jane" id="first_name" name="first_name" autocomplete="given-name">
+                </div>
+                <div class="form-field">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" placeholder="Doe" id="last_name" name="last_name" autocomplete="family-name">
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="form-field">
+                    <label for="email">Email *</label>
+                    <input type="text" placeholder="someone@example.com" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" name="phone_number" id="phone_number"> 
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="form-field">
+                    <label for="password">Password *</label>
+                    <input type="password" placeholder="Password" id="password" name="password" autocomplete="new-password" required>
+                </div>
+                <div class="form-field">
+                    <label for="confirm_password">Confirm password</label>
+                    <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+                </div>
+            </div>
+            <button class="confirm" type="submit">
+                Sign up
+            </button>
+
+            <div class="bottom-text">
+            <span>Already have an account? <a href="#">Log in</a></span>
+            </div>
+
+        </form>
+<script src="scripts.js"></script>
+</body>
+</html>
